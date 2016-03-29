@@ -1,0 +1,10 @@
+logs
+*.log
+npm-debug.log*
+node_modules/
+.idea/
+typings/
+build/
+config/config.json
+res/Navi.png
+res/Navi.psd

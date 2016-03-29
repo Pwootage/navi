@@ -1,0 +1,23 @@
+{
+  "name": "navi",
+  "version": "1.0.0",
+  "description": "Navi Discord/Slack/IRC bot",
+  "main": "index.js",
+  "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pwootage/navi.git"
+  },
+  "author": "Pwootage <pwootage@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Pwootage/navi/issues"
+  },
+  "homepage": "https://github.com/Pwootage/navi#readme",
+  "dependencies": {
+    "discord.js": "^6.1.0",
+    "es6-module-loader": "^0.17.11",
+    "systemjs": "^0.19.24",
+    "traceur": "0.0.104",
+    "typescript": "^1.8.9"
+  }
+}
