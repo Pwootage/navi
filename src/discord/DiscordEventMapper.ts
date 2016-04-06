@@ -8,8 +8,8 @@ export class DiscordEventMapper {
             "ready",
             "message"
         ];
-        events.forEach(method => {
-            client.on(<any>method, this[method].bind(this));
+        events.forEach(event => {
+            client.on(<any>event, this[event].bind(this));
         });
     }
 
